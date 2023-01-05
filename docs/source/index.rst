@@ -21,7 +21,5 @@ Contents
    mysql
    virtualhost
    siteconfig
-   usage
-   api
    
 
