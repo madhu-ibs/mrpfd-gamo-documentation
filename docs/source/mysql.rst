@@ -58,6 +58,7 @@ Once MySQL installation is secured, you can log in to the MySQL shell, and start
 **Creating Database**  
 -------------
 Once MySQL user is logged in,we can create database (**gamo** is the database name)
+
 .. code-block:: console
 
   create database gamo;
