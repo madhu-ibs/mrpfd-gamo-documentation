@@ -23,4 +23,5 @@ Restart Apache and test the sample script
 **Default RHEL Sample Site**
 --------
 Visit http://localhost or http://127.0.0.1 to view default httpd server sample site
+
 .. image:: images/default-site-httpd.JPG
