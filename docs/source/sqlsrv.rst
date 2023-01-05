@@ -1,7 +1,7 @@
-Installing PHP-SQLSRV
+**Installing PHP-SQLSRV**
 =====================================
 
-**Prerequisites to Install SQLSRV**
+Prerequisites to Install SQLSRV
 -------------------
 Add MSSQL REPO
 .. code-block:: console
@@ -30,7 +30,7 @@ Install MSODBC18 and MSODBC18 Tools
 .. image:: images/msodbc-install-2.JPG
 
 
-**Install UNIXODBC-DEVEL**
+Install UNIXODBC-DEVEL
 --------
 .. code-block:: console
 
@@ -39,7 +39,7 @@ Install MSODBC18 and MSODBC18 Tools
 .. image:: images/msodbc-devel-install.JPG
     
 
-**Module SQLSRV**
+Module SQLSRV
 --------
 .. code-block:: console
 
@@ -47,7 +47,7 @@ Install MSODBC18 and MSODBC18 Tools
 .. image:: images/sqlsrv-pecl-1.JPG
 .. image:: images/sqlsrv-pecl-2.JPG
     
-**Module PDO-SQLSRV**
+Module PDO-SQLSRV
 --------
 .. code-block:: console
 
@@ -56,7 +56,7 @@ Install MSODBC18 and MSODBC18 Tools
 .. image:: images/pdo-sqlsrv-pecl-1.JPG
 .. image:: images/pdo-sqlsrv-pecl-2.JPG
 
-**Module PDO-SQLSRV**
+Module PDO-SQLSRV
 --------
 .. code-block:: console
 
@@ -65,7 +65,7 @@ Install MSODBC18 and MSODBC18 Tools
 .. image:: images/pdo-sqlsrv-pecl-1.JPG
 .. image:: images/pdo-sqlsrv-pecl-2.JPG
 
-**Export SQLSRV & PDO-SQLSRV Modules**
+Export SQLSRV & PDO-SQLSRV Modules
 --------
 .. code-block:: console
 
@@ -73,14 +73,14 @@ Install MSODBC18 and MSODBC18 Tools
     echo extension=sqlsrv.so >> `php --ini | grep "Scan for additional .ini files" | sed -e "s|.*:\s*||"`/20-sqlsrv.ini
     
 
-**Exit to check PHP version and modules**
+Exit to check PHP version and modules
 
 .. code-block:: console
 
   exit
 
 
-**Check Installed Modules**
+Check Installed Modules
 ---------------------
 Check the modules installed,it should have sqlsrv and all other extensions listed as below
 .. code-block:: console
