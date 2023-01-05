@@ -1,33 +1,33 @@
-Installing MYSQL Server & Importing SQL
+**Installing MYSQL Server & Importing SQL**
 ==========================================
 
-**Install MySQL 8 **
+Install MySQL 8
 --------
 .. code-block:: console
 
     dnf install mysql-server
 .. image:: images/mysql8-install.JPG
     
-**Start MySQL**  
+Start MySQL
 -------------
 .. code-block:: console
 
   systemctl start mysqld
 
-**Enable MySQL at Boot**  
+Enable MySQL at Boot  
 -------------
 .. code-block:: console
 
   systemctl enable --now mysqld
   
-**View MySQL Status**  
+View MySQL Status 
 -------------
 .. code-block:: console
 
   systemctl status mysqld
 .. image:: images/mysql-status.JPG
 
-**Securing MySQL**  
+Securing MySQL  
 -------------
 .. code-block:: console
 
@@ -47,7 +47,7 @@ Installing MYSQL Server & Importing SQL
     - Reload privilege tables now?
 .. image:: images/mysql-secure.JPG
 
-**Login to MySQL**  
+Login to MySQL 
 -------------
 Once MySQL installation is secured, you can log in to the MySQL shell, and start creating new databases and users.
 .. code-block:: console
@@ -55,7 +55,7 @@ Once MySQL installation is secured, you can log in to the MySQL shell, and start
   mysql -u root -p
 .. image:: images/mysql-login.JPG
 
-**Creating Database**  
+Creating Database 
 -------------
 Once MySQL user is logged in,we can create database (**gamo** is the database name)
 
@@ -69,7 +69,7 @@ Select the database using this command
 
   use gamo;
   
-**Importing Database**  
+Importing Database  
 -------------
 Import the sql file of the gamo database using this command (Replace the path with your sql location)
 
