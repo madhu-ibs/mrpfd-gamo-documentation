@@ -60,6 +60,7 @@ Installing PHP-8.1
 **Check Installed Modules**
 ---------------------
 Check the modules installed,it should have sqlsrv and all other extensions listed as below
+
 .. code-block:: console
 
   php -m
