@@ -1,4 +1,13 @@
-MRPFD Gamo Platform - Server Setup documentation1
+Server Specifications
 ==================================================
 
-This document covers the steps for installing the necessary modules for the **MRPFD Gamo** Platform
+- Operating System : **Red Hat Enterprise Linux**
+- Version          : **8.7 (Ootpa)**
+- Cores            : **4**
+- RAM              : **8G**
+
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
