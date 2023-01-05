@@ -13,6 +13,9 @@ cccdsiu is the username of staging server,Replace it with your username
 
    sudo chown -R ccdsiu:ccdsiu /var/www/html
 
+
+
+
 **CHMOD folders**
 --------------------------------------
 Give 777 Permissions to following folders
@@ -31,7 +34,9 @@ Give 777 Permissions to following folders
 .. image:: images/777-logs-tmp.JPG  
 
 
-SeLINUX Status
+
+
+**SeLINUX Status**
 -----------
 Check selinux status ,it should be **disabled** or atleast set to **permissive**
 
@@ -54,7 +59,6 @@ To temporarily disable the selinux
 .. image:: images/selinux-permissiove.JPG
 
 
-
 To permanently disable the selinux ,set the status to **SELINUX=disabled**
 
 .. code-block:: console
@@ -66,7 +70,10 @@ To permanently disable the selinux ,set the status to **SELINUX=disabled**
 Then reboot the server to change the selinux status
 
 
-PHP.ini SHORT_OPEN_TAG
+
+
+
+**PHP.INI short_open_tag**
 -----------
 Set short_open_tag status to **On**
 
@@ -84,7 +91,9 @@ Restart the PHP FPM to change
 
 .. image:: images/php-fpm-restart.JPG
 
-COMPOSER UPDATE
+
+
+**Composer update**
 -----------
 Try to update the composer (Updates may vary from time to time)
 
@@ -100,7 +109,9 @@ Try to update the composer (Updates may vary from time to time)
     composer require "radsectors/sqlshim"
 .. image:: images/sqlshim-ifneed.JPG  
 
-DB & Other Params
+
+
+**DB & Other Params**
 -----------    
 - Mysql Credentials can be set in [config/app.php] : **Datasources->default** object
 
