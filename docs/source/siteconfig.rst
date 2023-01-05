@@ -38,7 +38,7 @@ Give **777** Permissions to following folders
 
 **SeLINUX Status**
 -----------
-Check selinux status ,it should be **disabled** or atleast set to **permissive**
+Check selinux status , it should be **disabled** or atleast set to **permissive**
 
 To Check the current status of selinux
 
@@ -48,7 +48,7 @@ To Check the current status of selinux
     
 .. image:: images/selinux-status.JPG
 
-If Status is **enforcing**,We need to either disable the selinux or set it permissive based on your server
+If Status is **enforcing**, We need to either disable the selinux or set it permissive based on your server
 
 To temporarily disable the selinux 
 
@@ -59,7 +59,7 @@ To temporarily disable the selinux
 .. image:: images/selinux-permissiove.JPG
 
 
-To permanently disable the selinux ,set the status to **SELINUX=disabled**
+To permanently disable the selinux , set the status to **SELINUX=disabled**
 
 .. code-block:: console
 
