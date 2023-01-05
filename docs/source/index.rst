@@ -15,6 +15,7 @@ Contents
    specs
    prerequisites
    php
+   sqlsrv
    apache
    mysql
    virtualhost
