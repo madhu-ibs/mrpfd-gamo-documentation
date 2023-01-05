@@ -1,14 +1,14 @@
-Installing PHP-8.1
+**Installing PHP-8.1**
 =====================================
 
-**Reset PHP**
+Reset PHP
 --------
 .. code-block:: console
 
     dnf module reset php
 .. image:: images/php-reset.JPG
     
-**Install PHP-8.1**  
+Install PHP-8.1 
 -------------
 .. code-block:: console
 
@@ -17,21 +17,21 @@ Installing PHP-8.1
 .. image:: images/php-installing-2.JPG
 
 
-**Enable CodeReady Builder REPO**
+Enable CodeReady Builder REPO
 -------------
 .. code-block:: console
 
   subscription-manager repos --enable codeready-builder-for-rhel-8-x86_64-rpms
 .. image:: images/enable-codeready.JPG
  
-**DNF Update**
+DNF Update
 ---------------------
 .. code-block:: console
 
   dnf update
 .. image:: images/dns-update-after-php-install.JPG
 
-**Dev Extensions**
+Dev Extensions
 ---------------------
 .. code-block:: console
 
@@ -40,14 +40,14 @@ Installing PHP-8.1
 .. image:: images/php-pdo-pear-devel-2.JPG
 .. image:: images/php-pdo-pear-devel-2.JPG
 
-**Check Version**
+Check Version
 ---------------------
 .. code-block:: console
 
   php -v
 .. image:: images/php-v.JPG
 
-**Additional Required PHP Modules**
+Additional Required PHP Modules
 --------
 .. code-block:: console
 
@@ -57,7 +57,7 @@ Installing PHP-8.1
 .. image:: images/php-extensions-2.JPG
 
 
-**Check Installed Modules**
+Check Installed Modules
 ---------------------
 Check the modules installed,it should have sqlsrv and all other extensions listed as below
 
