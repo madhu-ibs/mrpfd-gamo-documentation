@@ -1,11 +1,11 @@
-GAMO Platform Configuration
+**GAMO Platform Configuration**
 ==========================================
 
 - Extract the source code zip or clone the repo into the the root of the virtualhost which we created
 
 
 
-**CHOWN app root with user**
+CHOWN app root with user
 --------------------------------------
 **ccdsiu** is the username of staging server,Replace it with your username
 
@@ -16,7 +16,7 @@ GAMO Platform Configuration
 
 
 
-**CHMOD folders**
+CHMOD folders
 --------------------------------------
 Give **777** Permissions to following folders
 
@@ -36,7 +36,7 @@ Give **777** Permissions to following folders
 
 
 
-**SeLINUX Status**
+SeLINUX Status
 -----------
 Check selinux status , it should be **disabled** or atleast set to **permissive**
 
@@ -73,7 +73,7 @@ Then reboot the server to change the selinux status
 
 
 
-**PHP.INI short_open_tag**
+PHP.INI short_open_tag
 -----------
 Set short_open_tag status to **On**
 
@@ -93,7 +93,7 @@ Restart the PHP FPM to change
 
 
 
-**Composer update**
+Composer update
 -----------
 Try to update the composer from the root folder of project (Updates may vary from time to time)
 
@@ -111,7 +111,7 @@ Try to update the composer from the root folder of project (Updates may vary fro
 
 
 
-**DB & Other Params**
+DB & Other Params
 -----------    
 - Mysql Credentials can be set in [config/app.php] : **Datasources->default** object
 
@@ -151,7 +151,7 @@ Try to update the composer from the root folder of project (Updates may vary fro
         'port'=> 1812
     ],
     
-**Working Mode**
+Working Mode
 -----------    
 Path       : **[config/app.php]**
 
