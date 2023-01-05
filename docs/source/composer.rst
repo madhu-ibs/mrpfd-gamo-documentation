@@ -1,4 +1,4 @@
-Installing Composer & Git
+**Installing Composer & Git**
 =====================================
 
 Installing Composer
