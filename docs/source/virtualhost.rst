@@ -1,4 +1,4 @@
-Setting New Virtual Host
+**Setting New Virtual Host**
 ==========================================
 - Let us assume we want to use the domain **gamo.com** as our url
 - Point A record of server ip to this domain **gamo.com** using dns or map it in OS hosts, if platform is local
