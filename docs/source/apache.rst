@@ -47,4 +47,27 @@ Common HTTPD Commands for regular operations
    sudo systemctl reload httpd.service    ## Reload Apache ##
    sudo systemctl status httpd.service    ## Get status of Apache ##
 
+**Allow Port 80/443**
+--------
+
+Common Ports for HTTP services are
+
+- 80 for NON SSL
+- 443 for SSL
+
+Unblock Port 80 using firewall-cmd
+
+.. code-block:: console
+   
+   sudo firewall-cmd --permanent --add-service=http --zone=public
+   sudo firewall-cmd --reload
+   sudo firewall-cmd --list-services --zone=public
+   
+Unblock Port 443 using firewall-cmd
+
+.. code-block:: console
+   
+   sudo firewall-cmd --permanent --add-service=https --zone=public
+   sudo firewall-cmd --reload
+   sudo firewall-cmd --list-services --zone=public
 
