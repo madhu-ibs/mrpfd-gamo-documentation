@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'MRPFD-GAMO'
-copyright = '2022, All Rights Reserved'
+copyright = '2023 | All Rights Reserved | Impressico Business Solutions'
 author = 'Impressico Business Solutions'
 
 release = '0.1'
