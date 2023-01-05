@@ -35,3 +35,16 @@ Visit http://localhost or http://127.0.0.1 to view default httpd server sample s
 .. image:: images/default-site-httpd.JPG
 
 
+**HTTPD Service Actions**
+--------
+Common HTTPD Commands for regular operations
+
+.. code-block:: console
+   
+   sudo systemctl start httpd.service     ## Start Apache ##
+   sudo systemctl stop httpd.service      ## Stop Apache ##
+   sudo systemctl restart httpd.service   ## Restart Apache ##
+   sudo systemctl reload httpd.service    ## Reload Apache ##
+   sudo systemctl status httpd.service    ## Get status of Apache ##
+
+
