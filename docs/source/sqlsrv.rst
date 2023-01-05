@@ -79,15 +79,6 @@ Install MSODBC18 and MSODBC18 Tools
 
   exit
 
-**Additional Required PHP Modules**
---------
-.. code-block:: console
-
-    yum install -y php-cli php-common php-mysql php-zip php-gd php-mbstring php-curl php-xml php-bcmath php-intl
-    
-.. image:: images/php-extensions-1.JPG
-.. image:: images/php-extensions-2.JPG
-
 
 **Check Installed Modules**
 ---------------------
