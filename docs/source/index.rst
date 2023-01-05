@@ -1,7 +1,7 @@
 Table of Contents
 ==================================================
 
-This document covers the steps for installing the necessary modules for the **MRPFD Gamo** Platform
+This documentation covers the detail steps for installing the necessary modules for the **MRPFD Gamo** Platform
 
 .. note::
 
