@@ -150,4 +150,17 @@ Try to update the composer (Updates may vary from time to time)
         'password' => 'testing123',
         'port'=> 1812
     ],
+    
+**Working Mode**
+-----------    
+Path       : **[config/app.php]**
 
+Class name : **debug**
+
+- **true**  for Development
+- **false** for Production
+
+.. code-block:: console
+
+    'debug' => filter_var(env('DEBUG', true), FILTER_VALIDATE_BOOLEAN),
+    
