@@ -1,5 +1,8 @@
-Table of Contents
+MRPFD Gamification Platform Documentation
 ==================================================
+
+Table of Contents
+-------------------------------
 
 This documentation covers the detail steps for installing the necessary modules for the **MRPFD Gamo** Platform
 
