@@ -19,7 +19,7 @@ Installing Prerequisites
 
   dnf install https://rpms.remirepo.net/enterprise/remi-release-8.rpm
   
-**Add Yum UTILS**
+**Add YUM UTILS**
 ---------------------
 .. code-block:: console
 
