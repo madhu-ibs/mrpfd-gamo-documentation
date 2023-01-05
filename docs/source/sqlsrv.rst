@@ -1,18 +1,20 @@
 Installing PHP-SQLSRV
 =====================================
 
-**Prerequisites to install SQLSRV**
+**Prerequisites to Install SQLSRV**
 -------------------
 Add MSSQL REPO
 .. code-block:: console
 
     curl https://packages.microsoft.com/config/rhel/8/prod.repo > /etc/yum.repos.d/mssql-release.repo
+    
 .. image:: images/mssql-repo.JPG
 
 Remove Other UNIX ODBCS to avoid conflicts
 .. code-block:: console
 
-    curl https://packages.microsoft.com/config/rhel/8/prod.repo > /etc/yum.repos.d/mssql-release.repo
+    sudo yum remove unixODBC-utf16 unixODBC-utf16-devel
+    
 .. image:: images/unixodbc-old-remove.JPG
 
 Install MSODBC18 and MSODBC18 Tools
@@ -27,39 +29,49 @@ Install MSODBC18 and MSODBC18 Tools
 .. image:: images/msodbc-install-1.JPG
 .. image:: images/msodbc-install-2.JPG
 
-**Entension SQLSRV**
+
+**Install UNIXODBC-DEVEL**
+--------
+.. code-block:: console
+
+    sudo yum install -y unixODBC-devel
+
+.. image:: images/msodbc-devel-install.JPG
+    
+
+**Module SQLSRV**
 --------
 .. code-block:: console
 
     sudo pecl install sqlsrv
-.. image:: images/php-sqlsrv.JPG
+.. image:: images/sqlsrv-pecl-1.JPG
+.. image:: images/sqlsrv-pecl-2.JPG
     
-**Entension PDO-SQLSRV**
+**Module PDO-SQLSRV**
 --------
 .. code-block:: console
 
     sudo pecl install pdo_sqlsrv
-.. image:: images/php-pdo-sqlsrv.JPG
+    
+.. image:: images/pdo-sqlsrv-pecl-1.JPG
+.. image:: images/pdo-sqlsrv-pecl-2.JPG
 
-**Login to Sudo**
+**Module PDO-SQLSRV**
 --------
 .. code-block:: console
 
-    sudo su
+    sudo pecl install pdo_sqlsrv
+    
+.. image:: images/pdo-sqlsrv-pecl-1.JPG
+.. image:: images/pdo-sqlsrv-pecl-2.JPG
 
-**Make PDO-SQLSRV SO**
--------------
+**Export SQLSRV & PDO-SQLSRV Modules**
+--------
 .. code-block:: console
 
-  echo extension=pdo_sqlsrv.so >> `php --ini | grep "Scan for additional .ini files" | sed -e "s|.*:\s*||"`/30-pdo_sqlsrv.ini
-.. image:: images/make-sqlsrv.JPG
- 
-**Make SQLSRV SO**
--------------
-.. code-block:: console
-
-  echo extension=sqlsrv.so >> `php --ini | grep "Scan for additional .ini files" | sed -e "s|.*:\s*||"`/20-sqlsrv.ini
-.. image:: images/make-sqlsrv.JPG
+    echo extension=pdo_sqlsrv.so >> `php --ini | grep "Scan for additional .ini files" | sed -e "s|.*:\s*||"`/30-pdo_sqlsrv.ini
+    echo extension=sqlsrv.so >> `php --ini | grep "Scan for additional .ini files" | sed -e "s|.*:\s*||"`/20-sqlsrv.ini
+    
 
 **Exit to check PHP version and modules**
 
@@ -67,12 +79,19 @@ Install MSODBC18 and MSODBC18 Tools
 
   exit
 
-**Check Version**
----------------------
+**Additional Required PHP Modules**
+--------
 .. code-block:: console
 
-  php -v
-  
+    yum install -y php-cli php-common php-mysql php-zip php-gd php-mbstring php-curl php-xml php-bcmath php-intl
+    
+.. image:: images/php-extensions-1.JPG
+.. image:: images/php-extensions-2.JPG
+
+
+**Check Installed Modules**
+---------------------
+Check the modules installed,it should have sqlsrv and all other extensions listed as below
 .. code-block:: console
 
   php -m
