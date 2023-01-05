@@ -1,7 +1,7 @@
-Installing Apache WebServer (HTTPD)
+**Installing Apache WebServer (HTTPD)**
 =====================================
 
-**Install httpd**
+Install httpd
 --------
 .. code-block:: console
 
@@ -20,7 +20,7 @@ Restart Apache and test the sample script
    
    sudo apachectl restart
  
-**Enable httpd Service at boot time**
+Enable httpd Service at boot time
 --------
  
 .. code-block:: console
@@ -28,14 +28,14 @@ Restart Apache and test the sample script
    sudo systemctl enable httpd.service
 
    
-**Default RHEL Sample Site**
+Default RHEL Sample Site
 --------
 Visit http://localhost or http://127.0.0.1 to view default httpd server sample site
 
 .. image:: images/default-site-httpd.JPG
 
 
-**HTTPD Service Actions**
+HTTPD Service Actions
 --------
 Common HTTPD Commands for regular operations
 
@@ -47,7 +47,7 @@ Common HTTPD Commands for regular operations
    sudo systemctl reload httpd.service    ## Reload Apache ##
    sudo systemctl status httpd.service    ## Get status of Apache ##
 
-**Allow Port 80/443**
+Allow Port 80/443
 --------
 
 Common Ports for HTTP services are
