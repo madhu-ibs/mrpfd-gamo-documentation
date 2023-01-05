@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'MRPFD-GAMO'
-copyright = '2022, Impressico Business Solutions'
-author = 'IBS'
+copyright = '2022, All Rights Reserved'
+author = 'Impressico Business Solutions'
 
 release = '0.1'
 version = '0.1.0'
@@ -29,7 +29,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx-rtd-dark-mode'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
