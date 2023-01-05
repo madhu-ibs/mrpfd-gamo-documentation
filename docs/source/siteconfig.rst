@@ -18,7 +18,7 @@ GAMO Platform Configuration
 
 **CHMOD folders**
 --------------------------------------
-Give 777 Permissions to following folders
+Give **777** Permissions to following folders
 
  - logs
  - tmp
