@@ -1,13 +1,13 @@
-Installing Prerequisites
+**Installing Prerequisites**
 ==================================================
 
-**Login to Sudo**
+Login to Sudo
 --------
 .. code-block:: console
 
     sudo su
     
-**Add EPEL**  
+Add EPEL 
 -------------
 .. code-block:: console
 
@@ -15,14 +15,14 @@ Installing Prerequisites
 .. image:: images/epel.JPG
 
 
-**Add REMI**
+Add REMI
 -------------
 .. code-block:: console
 
   dnf install https://rpms.remirepo.net/enterprise/remi-release-8.rpm 
 .. image:: images/remi.JPG
  
-**Add YUM UTILS**
+Add YUM UTILS
 ---------------------
 .. code-block:: console
 
