@@ -1,6 +1,8 @@
-Linux Server Specifications
+Server Specifications
 ==================================================
 
+Linux Server Specs
+-----------------
 +------------------+------------------------------+
 | Operating System | **Red Hat Enterprise Linux** |
 +------------------+------------------------------+
@@ -20,8 +22,8 @@ Linux Server Specifications
 +------------------+------------------------------+
 
 
-SQL Server Specifications
-==================================================
+SQL Server Specs
+--------------------------
 
 +------------------+--------------------+
 | Operating System | **Windows 10 Pro** |
