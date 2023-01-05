@@ -16,6 +16,7 @@ Contents
    prerequisites
    php
    sqlsrv
+   composer
    apache
    mysql
    virtualhost
