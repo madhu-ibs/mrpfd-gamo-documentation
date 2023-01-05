@@ -95,7 +95,7 @@ Restart the PHP FPM to change
 
 **Composer update**
 -----------
-Try to update the composer (Updates may vary from time to time)
+Try to update the composer from the root folder of project (Updates may vary from time to time)
 
 .. code-block:: console
 
