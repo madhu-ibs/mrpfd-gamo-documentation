@@ -7,7 +7,7 @@ GAMO Platform Configuration
 
 **CHOWN app root with user**
 --------------------------------------
-cccdsiu is the username of staging server,Replace it with your username
+**ccdsiu** is the username of staging server,Replace it with your username
 
 .. code-block:: console
 
