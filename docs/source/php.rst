@@ -46,3 +46,21 @@ Installing PHP-8.1
 
   php -v
 .. image:: images/php-v.JPG
+
+**Additional Required PHP Modules**
+--------
+.. code-block:: console
+
+    yum install -y php-cli php-common php-mysql php-zip php-gd php-mbstring php-curl php-xml php-bcmath php-intl php-dom php-simplexml
+    
+.. image:: images/php-extensions-1.JPG
+.. image:: images/php-extensions-2.JPG
+
+
+**Check Installed Modules**
+---------------------
+Check the modules installed,it should have sqlsrv and all other extensions listed as below
+.. code-block:: console
+
+  php -m
+.. image:: images/php-m.JPG
