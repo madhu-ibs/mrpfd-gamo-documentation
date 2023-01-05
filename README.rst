@@ -1,9 +1,9 @@
-Template for the Read the Docs tutorial
+MRPFD Gamo Platform - Server Setup documentation!
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This document covers the steps for installing the necessary modules for the MRPFD Gamo Platform
+
 
 Read the tutorial here:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://mrpfd-gamo-documentation.readthedocs.io/en/latest/
