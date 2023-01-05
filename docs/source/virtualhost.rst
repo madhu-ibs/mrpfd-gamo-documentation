@@ -1,9 +1,10 @@
 Setting New Virtual Host
 ==========================================
 - Let us assume we want to use the domain **gamo.com** as our url
-- Point A record of server ip to this domain **gamo.com using dns or map it in OS hosts if platform is local
+- Point A record of server ip to this domain **gamo.com** using dns or map it in OS hosts, if platform is local
 
 **Add Domain to Local OS Hosts**
+
 .. code-block:: console
 
   sudo nano /etc/hosts
@@ -11,8 +12,8 @@ Setting New Virtual Host
 .. image:: images/hosts.JPG
 
 
-c
-    
+Adding new virtual host
+-----------
 The default template for virtual host in **httpd** is as follows
 
 We installed the code in the following directory **/var/www/html/webroot**
