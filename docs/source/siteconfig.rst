@@ -155,7 +155,7 @@ Working Mode
 -----------    
 Path       : **[config/app.php]**
 
-Class name : **debug**
+Parameter name : **debug**
 
 - **true**  for Development
 - **false** for Production
