@@ -1,4 +1,4 @@
-**Server Specifications**
+**Staging Server Specifications**
 ==================================================
 
 Linux Server Specs
