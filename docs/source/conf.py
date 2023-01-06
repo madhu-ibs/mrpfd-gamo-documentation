@@ -38,4 +38,8 @@ html_show_sourcelink = False
 
 html_theme_options = {
     'display_version': False}
-
+html_context = {
+"display_github": False,
+"last_updated": True,
+"commit": False,
+}
