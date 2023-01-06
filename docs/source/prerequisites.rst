@@ -1,4 +1,4 @@
-**Installing Prerequisites**
+**Prerequisites**
 ==================================================
 
 Login to Sudo
