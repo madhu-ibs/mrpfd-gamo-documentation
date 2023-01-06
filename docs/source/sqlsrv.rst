@@ -4,6 +4,7 @@
 Prerequisites to Install SQLSRV
 -------------------
 Add MSSQL REPO
+
 .. code-block:: console
 
     curl https://packages.microsoft.com/config/rhel/8/prod.repo > /etc/yum.repos.d/mssql-release.repo
@@ -11,6 +12,7 @@ Add MSSQL REPO
 .. image:: images/mssql-repo.JPG
 
 Remove Other UNIX ODBCS to avoid conflicts
+
 .. code-block:: console
 
     sudo yum remove unixODBC-utf16 unixODBC-utf16-devel
@@ -49,6 +51,7 @@ Module SQLSRV
     
 Module PDO-SQLSRV
 --------
+
 .. code-block:: console
 
     sudo pecl install pdo_sqlsrv
@@ -56,17 +59,11 @@ Module PDO-SQLSRV
 .. image:: images/pdo-sqlsrv-pecl-1.JPG
 .. image:: images/pdo-sqlsrv-pecl-2.JPG
 
-Module PDO-SQLSRV
---------
-.. code-block:: console
 
-    sudo pecl install pdo_sqlsrv
-    
-.. image:: images/pdo-sqlsrv-pecl-1.JPG
-.. image:: images/pdo-sqlsrv-pecl-2.JPG
 
 Export SQLSRV & PDO-SQLSRV Modules
 --------
+
 .. code-block:: console
 
     echo extension=pdo_sqlsrv.so >> `php --ini | grep "Scan for additional .ini files" | sed -e "s|.*:\s*||"`/30-pdo_sqlsrv.ini
@@ -83,6 +80,7 @@ Exit to check PHP version and modules
 Check Installed Modules
 ---------------------
 Check the modules installed,it should have sqlsrv and all other extensions listed as below
+
 .. code-block:: console
 
   php -m
