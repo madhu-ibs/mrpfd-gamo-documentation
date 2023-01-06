@@ -1,4 +1,4 @@
-**Installing Apache WebServer (HTTPD)**
+**Apache WebServer (HTTPD) Setup**
 =====================================
 
 Install httpd
