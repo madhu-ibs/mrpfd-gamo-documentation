@@ -1,4 +1,4 @@
-**Installing PHP-SQLSRV**
+**PHP-SQLSRV**
 =====================================
 
 Prerequisites to Install SQLSRV
