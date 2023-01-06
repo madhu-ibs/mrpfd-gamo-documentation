@@ -1,4 +1,4 @@
-**Installing MYSQL Server & Importing SQL**
+**MYSQL Server Setup & Importing SQL**
 ==========================================
 
 Install MySQL 8
@@ -50,6 +50,7 @@ Securing MySQL
 Login to MySQL 
 -------------
 Once MySQL installation is secured, you can log in to the MySQL shell, and start creating new databases and users.
+
 .. code-block:: console
 
   mysql -u root -p
