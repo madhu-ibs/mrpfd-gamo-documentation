@@ -10,6 +10,7 @@ Installing Composer
     
 
 **Check Version**
+
 .. code-block:: console
 
   composer
@@ -18,6 +19,7 @@ Installing Composer
 
 Installing GIT
 -----------
+
 .. code-block:: console
 
     sudo dnf install git
