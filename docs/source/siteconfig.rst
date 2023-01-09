@@ -18,7 +18,7 @@ CHOWN app root with user
 
 CHMOD folders
 --------------------------------------
-Give **777** Permissions to following folders
+Give **777** Permissions to following folders (Create them if they are not present)
 
  - logs
  - tmp
@@ -94,7 +94,7 @@ Restart the PHP FPM to change
 
 
 Composer update
------------
+------------------------------
 Try to update the composer from the root folder of project (Updates may vary from time to time)
 
 .. code-block:: console
@@ -109,6 +109,12 @@ Try to update the composer from the root folder of project (Updates may vary fro
     composer require "radsectors/sqlshim"
 .. image:: images/sqlshim-ifneed.JPG  
 
+**cewi/excel** package may need to be updated 
+
+.. code-block:: console
+
+    composer require cewi/excel:dev-main
+.. image:: images/cewi-excel.JPG
 
 
 DB & Other Params
