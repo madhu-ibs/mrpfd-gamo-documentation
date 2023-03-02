@@ -25,11 +25,15 @@ Give **777** Permissions to following folders (Create them if they are not prese
 
 .. code-block:: console
 
-   sudo chmod -R /var/www/html/tmp
+   sudo mkdir /var/www/html/tmp /var/www/html/logs
    
 .. code-block:: console
 
-   sudo chmod -R /var/www/html/logs
+   sudo chmod -R 777 /var/www/html/tmp
+   
+.. code-block:: console
+
+   sudo chmod -R 777 /var/www/html/logs
 
 .. image:: images/777-logs-tmp.JPG  
 
